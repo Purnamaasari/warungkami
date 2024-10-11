@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Detail - Corn Dog Coklat</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <style>
+    /* Layout for Detail Order Section */
+    .detail-order {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      background-color: #fff8f0;
+    }
+
+    .image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h1 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .content h1 span {
+      color: #ff5722;
+      font-weight: bold;
+    }
+
+    .content p, .content ul {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    ul li {
+      text-align: left;
+    }
+
+    .price {
+      font-size: 22px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .order-btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #ff5722;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .order-btn:hover {
+      background-color: #e64a19;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .detail-order {
+        flex-direction: column;
+      }
+
+      .content {
+        padding: 0;
+      }
+
+      .image img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Warung Kami</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+
+  <section class="detail-order">
+    <div class="container">
+      <div class="image">
+        <img src="img/corndog cokelat.jpg" alt="Corn Dog Coklat">
+      </div>
+      <div class="content">
+        <h1><span>🍫 Sweet Delight!</span> Corn Dog Coklat</h1>
+        <p><strong>Asal:</strong> Corn Dog Coklat kami adalah camilan inovatif dengan lapisan coklat leleh yang kaya rasa, dibalut dalam adonan jagung yang renyah dan menambah cita rasa manis yang menggoda.</p>
+        <p><strong>Deskripsi:</strong> <em>Corn Dog Coklat</em> ini adalah kombinasi sempurna antara sosis gurih dan lapisan coklat manis yang meleleh di mulut, disertai adonan jagung krispi. Ideal untuk pecinta coklat dan sosis yang mencari pengalaman baru!</p>
+        <p><strong>Bahan-bahan:</strong></p>
+        <ul>
+          <li>Sosis daging premium</li>
+          <li>Coklat leleh berkualitas</li>
+          <li>Adonan jagung krispi</li>
+          <li>Minyak goreng berkualitas</li>
+          <li>Saus coklat ekstra untuk topping</li>
+        </ul>
+        <p class="price">💰 <strong>Harga:</strong> Rp 35.000</p>
+        <a href="#" class="order-btn">Pesan Sekarang & Rasakan Kelezatannya!</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer_main">
+      <div class="footer_tag">
+        <h2>Location</h2>
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Jl. Ahmad Yani Utara No.462, Peguyangan, Denpasar, Bali 80239</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Quick Links</h2>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Menu</a></p>
+        <p><a href="#">Contact</a></p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Contact</h2>
+        <i class="fa-solid fa-phone"></i>
+        <p>+62 885 620 70</p>
+        <i class="fa-solid fa-envelope"></i>
+        <p>sarip4946@gmail.com</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Our Service</h2>
+        <p>Fast Delivery</p>
+        <p>Easy Payments</p>
+        <p>24 x 7 Service</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Follow Us</h2>
+        <div class="social_icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyrightText">
+      <p>&copy; 2024 PurnamaSari. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

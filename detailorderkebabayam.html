@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Detail - Kebab Ayam</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <style>
+    /* Layout for Detail Order Section */
+    .detail-order {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
+      text-align: center; /* Centering all content */
+    }
+
+    .image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      max-width: 600px;
+    }
+
+    .content h1 {
+      font-size: 36px;
+      color: #ff9933;
+      margin-bottom: 20px;
+    }
+
+    .content p, .content ul {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      text-align: left; /* Align the list to the left */
+    }
+
+    .order-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff9933;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .order-btn:hover {
+      background-color: #ffcc00;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .detail-order {
+        flex-direction: column; /* Stack content on smaller screens */
+      }
+
+      .content {
+        padding-left: 0;
+      }
+
+      .image img {
+        max-width: 100%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Warung Kami</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+
+  <!-- Detail Order Section -->
+  <section class="detail-order">
+    <div class="container">
+      <div class="image">
+        <img src="img/kebab ayam.jpg" alt="Kebab Ayam">
+      </div>
+      <div class="content">
+        <h1>Kebab Ayam</h1>
+        <p><strong>Asal:</strong> Kebab Ayam kami terinspirasi dari cita rasa otentik Timur Tengah, memberikan sensasi kuliner yang luar biasa.</p>
+        <p><strong>Deskripsi:</strong> Nikmati sensasi lezat dari <em>Kebab Ayam</em> kami! Daging ayam yang dipanggang dengan sempurna, berbalut bumbu rempah yang menggugah selera, dipadukan dengan roti pita lembut dan segar. Setiap gigitan menawarkan perpaduan kelezatan yang unik, mulai dari sayuran renyah hingga saus yogurt creamy yang menyempurnakan rasa. Kebab yang tak hanya mengenyangkan, tapi juga memanjakan lidah Anda!</p>
+        <p><strong>Bahan-bahan:</strong></p>
+        <ul>
+          <li>Daging ayam tanpa tulang</li>
+          <li>Roti pita</li>
+          <li>Selada, tomat, mentimun</li>
+          <li>Saus bawang putih</li>
+          <li>Yogurt</li>
+          <li>Rempah-rempah khas kebab</li>
+        </ul>
+        <p><strong>Harga:</strong> Rp 50.000</p>
+        <a href="#" class="order-btn">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer_main">
+      <div class="footer_tag">
+        <h2>Location</h2>
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Jl. Ahmad Yani Utara No.462, Peguyangan, Denpasar, Bali 80239</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Quick Links</h2>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Menu</a></p>
+        <p><a href="#">Contact</a></p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Contact</h2>
+        <i class="fa-solid fa-phone"></i>
+        <p>+62 885 620 70</p>
+        <i class="fa-solid fa-envelope"></i>
+        <p>sarip4946@gmail.com</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Our Service</h2>
+        <p>Fast Delivery</p>
+        <p>Easy Payments</p>
+        <p>24 x 7 Service</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Follow Us</h2>
+        <div class="social_icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyrightText">
+      <p>&copy; 2024 PurnamaSari. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

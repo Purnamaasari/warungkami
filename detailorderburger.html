@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Detail - kalsik burger</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="detailorder.css" />
+  <script defer src="script.js"></script>
+  <style>
+    /* Product Section */
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.product-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    margin-left: 30px;
+    max-width: 400px;
+}
+
+.product-details h2 {
+    font-size: 2rem;
+    color: #F7C846;
+}
+
+.product-details p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.price-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.rating span {
+    font-size: 1.5rem;
+    color: #F7C846;
+}
+
+.order-btn {
+    display: inline-block;
+    background-color: #F7C846;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #f0b630;
+}
+  </style>
+
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Warung Kami</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="img/klassik burger.jpg" alt="Kebab Ayam">
+            </div>
+            <div class="product-details">
+                <h2>Kebab Ayam</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda voluptas.</p>
+                <div class="price-rating">
+                    <span class="price">$20.00</span>
+                    <div class="rating">
+                        <span>★★★★☆</span>
+                    </div>
+                </div>
+                <a href="#" class="order-btn">Order Now</a>
+            </div>
+        </div>
+    </main>
+
+  <footer>
+    <div class="footer_main">
+      <div class="footer_tag">
+        <h2>Location</h2>
+        <i class="fa-solid fa-location-dot"></i>
+        <p>
+          Jl. Ahmad Yani Utara No.462, Peguyangan, Denpasar, Bali 80239
+        </p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Quick Links</h2>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Menu</a></p>
+        <p><a href="#">Contact</a></p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Contact</h2>
+        <i class="fa-solid fa-phone"></i>
+        <p>+62 885 620 70</p>
+        <i class="fa-solid fa-envelope"></i>
+        <p>sarip4946@gmail.com</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Our Service</h2>
+        <p>Fast Delivery</p>
+        <p>Easy Payments</p>
+        <p>24 x 7 Service</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Follow Us</h2>
+        <div class="social_icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyrightText">
+      <p>&copy; 2024 PurnamaSari. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
